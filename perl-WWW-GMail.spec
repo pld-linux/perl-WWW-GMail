@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	WWW
-%define	pnam	GMail
+%define		pdir	WWW
+%define		pnam	GMail
 Summary:	WWW::GMail - Perl extension for accessing Google Mail (gmail)
 Summary(pl):	WWW::GMail - Rozszerzenie Perla do obs³ugi poczty Google (gmail)
 Name:		perl-WWW-GMail
