@@ -28,7 +28,7 @@ messages from Google Mail (GMail) account.
 
 %description -l pl
 To rozszerzenie Perla pozwala na pobranie listy wiadomo¶ci oraz tre¶ci
-poszczególnych maili z konta Google Mail (GMail).
+poszczególnych listów z konta Google Mail (GMail).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
