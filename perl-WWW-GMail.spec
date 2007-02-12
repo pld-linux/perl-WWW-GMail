@@ -6,7 +6,7 @@
 %define		pdir	WWW
 %define		pnam	GMail
 Summary:	WWW::GMail - Perl extension for accessing Google Mail (gmail)
-Summary(pl):	WWW::GMail - Rozszerzenie Perla do obs≥ugi poczty Google (gmail)
+Summary(pl.UTF-8):   WWW::GMail - Rozszerzenie Perla do obs≈Çugi poczty Google (gmail)
 Name:		perl-WWW-GMail
 Version:	0.07
 Release:	1
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This Perl extension allows allows retrieval of message lists, and raw
 messages from Google Mail (GMail) account.
 
-%description -l pl
-To rozszerzenie Perla pozwala na pobranie listy wiadomo∂ci oraz tre∂ci
-poszczegÛlnych listÛw z konta Google Mail (GMail).
+%description -l pl.UTF-8
+To rozszerzenie Perla pozwala na pobranie listy wiadomo≈õci oraz tre≈õci
+poszczeg√≥lnych list√≥w z konta Google Mail (GMail).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
