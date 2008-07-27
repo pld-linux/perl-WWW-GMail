@@ -9,7 +9,7 @@ Summary:	WWW::GMail - Perl extension for accessing Google Mail (gmail)
 Summary(pl.UTF-8):	WWW::GMail - Rozszerzenie Perla do obsługi poczty Google (gmail)
 Name:		perl-WWW-GMail
 Version:	0.07
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
