@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	WWW
 %define		pnam	GMail
+%include	/usr/lib/rpm/macros.perl
 Summary:	WWW::GMail - Perl extension for accessing Google Mail (gmail)
 Summary(pl.UTF-8):	WWW::GMail - Rozszerzenie Perla do obsługi poczty Google (gmail)
 Name:		perl-WWW-GMail
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	405c7d85d35fc594cc52ea4e2f0e7eac
+URL:		http://search.cpan.org/dist/WWW-Gmail/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
