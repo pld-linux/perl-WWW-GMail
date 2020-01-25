@@ -4,7 +4,6 @@
 
 %define		pdir	WWW
 %define		pnam	GMail
-%include	/usr/lib/rpm/macros.perl
 Summary:	WWW::GMail - Perl extension for accessing Google Mail (gmail)
 Summary(pl.UTF-8):	WWW::GMail - Rozszerzenie Perla do obsługi poczty Google (gmail)
 Name:		perl-WWW-GMail
